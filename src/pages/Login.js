@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import '../App.css';
 import '../img/khalidit-logo.png';
-import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
+// import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
 
 export default class Login extends Component {
 
     // handleClick=()=>{
-        
+
     //     history.pushState("/home")
     // };
 
@@ -33,7 +33,7 @@ export default class Login extends Component {
 
                     <div class="container" style={{ backgroundColor: "darkcyan",borderRadius: "9px"}}>
                         <button type="button" class="cancelbtn">Cancel</button>
-                        <span class="psw"><a href="#" class="psw">Forgot password?</a></span>
+                        <span class="psw">Forgot password?</span>
                     </div>
                 </form>
             </div>

@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
-import Mohibbur from "./component/Mohibbur";
-import Taifur from "./component/Taifur";
+// import Mohibbur from "./component/Mohibbur";
+// import Taifur from "./component/Taifur";
 import Login from "./pages/Login";
 
 function App() {
